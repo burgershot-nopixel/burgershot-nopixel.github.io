@@ -10,7 +10,7 @@ const Settings = {
 
 const Menu = {
 	// Combo Items:
-	"MEALS (All Meals come with a box/toy)": {
+	"MEALS <font color=\"red\">(All Meals come with a box/toy)<font/>": {
 		header: true,
 	},
 	"Murdershake Meal": {
