@@ -10,10 +10,11 @@ const Settings = {
 
 const Menu = {
 	// Combo Items:
-	"Combos": {
+	"Meals (All Meals come with a box/toy)": {
 		header: true,
 	},
-	"Murdershake": {
+	"Murdershake Meal": {
+		fileRenameException: true,
 		price: 300,
 		noDiscount: true,
 		emoji: '🍩',
@@ -28,75 +29,44 @@ const Menu = {
 		items: ["Murder Meal", "Heartstopper", "Fries", "Soda"],
 		copypasta: '~o~ ~h~🍔MurderMeal🍔~n~ ~b~1 Mystery Burger, 1 Side, 1 Drink ~w~|~g~ $250',
 	},
-	"Jackpot Meal": {
+// 	"Salty Seaman": {
+// 		price: 200,
+// 		emoji: '🧂',
+// 		items: ["Fries", "Fries", "Soda", "Soda"],
+// 		copypasta:  '~p~~h~⛵🧂Salty Seaman Combo🧂⛵~n~~b~2 Fries & 2 Drinks ~w~|~g~ $200',
+// 	},
+// 	"Sweet Tooth": {
+// 		price: 162,
+// 		emoji: '🦷',
+// 		items: ["Milkshake", "Milkshake", "Cream Pie", "Cream Pie"],
+// 		copypasta:  '~g~~h~🦷🍬Sweet Tooth Combo🍬🦷~n~~b~2 Milkshakes & 2 Cream Pies ~w~|~g~ $162',
+// 	},
+// 	"Sugar Rush": {
+// 		price: 123,
+// 		emoji: '🍬',
+// 		items: ["Soda", "Cream Pie", "Rimjob"],
+// 		copypasta:  '💨🍬Sugar Rush Combo💨🍬~n~~b~1 Soda, 1 Cream Pie, 1 Rimjob ~w~|~g~ $123',
+// 	},
+// 	"Morning Glory": {
+// 		price: 150,
+// 		emoji: '☀️',
+// 		items: ["Oatmeal", "Bacon", "Orange Juice"],
+// 		copypasta:  '~g~~h~ 🌄 Morning Glory Combo 🌄~n~~b~1 Oatmeal, 1 Bacon, 1 OJ ~w~|~g~ $150 ~r~LIMITED',
+// 	},
+	"4-Pc Nuggies Meal": {
 		fileRenameException: true,
-		price: 700,
-		emoji: '💰',
-		items: ["Money Shot", "Lucky Rings", "Copium"],
-		copypasta: '~o~ ~h~🍔JackPot Meal💰~n~ ~b~1 Money Shot, 1 Lucky Rings, 1 Copium ~w~|~g~ $700',
-	},
-	"Running Man": {
-		price: 250,
-		emoji: '🏃',
-		items: ["Fries", "Fries", "Rimjob", "Rimjob", "Soda"],
-		copypasta: '~y~~h~🏃‍♂️Running Man Combo🏃‍♂️ ~n~~b~2 Fries, 2 Rimjobs, 1 Soda ~w~|~g~ $250',
-	},
-	"MilkShake and Fries": {
-		price: 200,
-		emoji: '🍟',
-		items: ["Fries", "Fries", "Milkshake", "Milkshake"],
-		copypasta:  '~p~~h~🍟🍨MilkShake and Fries Combo🍨🍟~n~~b~2 Fries & 2 Milkshakes ~w~|~g~ $200',
-	},
-	"Lucky Fisherman": {
-		price: 200,
-		emoji: '⛵',
-		items: ["Lucky Rings", "Lucky Rings", "Soda", "Soda"],
-		copypasta:  '~p~~h~⛵🧅Lucky Fisherman Combo🧅⛵~n~~b~2 Lucky Rings & 2 Drinks ~w~|~g~ $200',
-	},
-	"Salty Seaman": {
-		price: 200,
-		emoji: '🧂',
-		items: ["Fries", "Fries", "Soda", "Soda"],
-		copypasta:  '~p~~h~⛵🧂Salty Seaman Combo🧂⛵~n~~b~2 Fries & 2 Drinks ~w~|~g~ $200',
-	},
-	"Stretchy De-stress": {
-		price: 200,
-		emoji: '🧀',
-		items: ["Mozz sticks","Mozz sticks","Mozz sticks","Mozz sticks"],
-		copypasta:  '~y~ ~h~ 🧀Stretchy De-stress🧠 ~n~~b~ 4 Mozzarella Sticks ~w~|~g~ $200 ~r~LIMITED',
-	},
-	"Sweet Tooth": {
-		price: 162,
-		emoji: '🦷',
-		items: ["Milkshake", "Milkshake", "Cream Pie", "Cream Pie"],
-		copypasta:  '~g~~h~🦷🍬Sweet Tooth Combo🍬🦷~n~~b~2 Milkshakes & 2 Cream Pies ~w~|~g~ $162',
-	},
-	"Sugar Rush": {
-		price: 123,
-		emoji: '🍬',
-		items: ["Soda", "Cream Pie", "Rimjob"],
-		copypasta:  '💨🍬Sugar Rush Combo💨🍬~n~~b~1 Soda, 1 Cream Pie, 1 Rimjob ~w~|~g~ $123',
-	},
-	"Morning Glory": {
-		price: 150,
-		emoji: '☀️',
-		items: ["Oatmeal", "Bacon", "Orange Juice"],
-		copypasta:  '~g~~h~ 🌄 Morning Glory Combo 🌄~n~~b~1 Oatmeal, 1 Bacon, 1 OJ ~w~|~g~ $150 ~r~LIMITED',
-	},
-	"KidsMeal": {
-		fileRenameException: true,
-		price: 250,
+		price: 300,
 		emoji: '🧒',
-		items: ["Dino Nuggies", "Dino Nuggies", "Fries", "Orange Juice", "Ice Cream", "Toy"],
+		items: ["Dino Nuggies", "Dino Nuggies", "Dino Nuggies", "Dino Nuggies", "Soda", "Murder Meal"],
 		noDiscount: true,
-		copypasta:  '~o~ ~h~🏃‍♂️Kids Meal🐣~n~ ~b~2 Dino Nuggies, 1 Fries, 1 OJ, 1 Ice Cream ~w~|~g~ $250',
+		copypasta:  '~o~ ~h~🏃‍♂️Kids Meal🐣~n~ ~b~4 Dino Nuggies, 1 Fries, 1 OJ, 1 Ice Cream ~w~|~g~ $250',
 	},
-	"Chicken Dinner": {
-		price: 420,
-		emoji: '🐔',
-		items: ["Buttermilk Chicken", "Chicken Wraps", "Mozz sticks", "Copium"],
-		copypasta:  '~y~ ~h~🐔Chicken Dinner🐔~n~~b~1 ButterMilk Chicken, 1 Chicken Wrap,~n~ 1 Mozzarella Sticks, ~n~ 1 Copium ~w~ | ~g~ $420 ~r~LIMITED',
-	},
+// 	"Chicken Dinner": {
+// 		price: 420,
+// 		emoji: '🐔',
+// 		items: ["Buttermilk Chicken", "Chicken Wraps", "Mozz sticks", "Copium"],
+// 		copypasta:  '~y~ ~h~🐔Chicken Dinner🐔~n~~b~1 ButterMilk Chicken, 1 Chicken Wrap,~n~ 1 Mozzarella Sticks, ~n~ 1 Copium ~w~ | ~g~ $420 ~r~LIMITED',
+// 	},
 	// Burger Meals:
 	"Burger Meals:": {
 		header: true,
@@ -109,12 +79,46 @@ const Menu = {
 		price: 575,
 		items: ["Money Shot", "Fries", "Soda"],
 	},
-	"Bleeder Meal": {
-		price: 200,
-		items: ["Bleeder", "Fries", "Soda"],
+	"Jackpot Combo": {
+		fileRenameException: true,
+		price: 700,
+		emoji: '💰',
+		items: ["Money Shot", "Lucky Rings", "Copium"],
+		copypasta: '~o~ ~h~🍔JackPot Meal💰~n~ ~b~1 Money Shot, 1 Lucky Rings, 1 Copium ~w~|~g~ $700',
 	},
+	"Running Man Combo": {
+		fileRenameException: true,
+		price: 250,
+		emoji: '🏃',
+		items: ["Fries", "Fries", "Rimjob", "Rimjob", "Soda"],
+		copypasta: '~y~~h~🏃‍♂️Running Man Combo🏃‍♂️ ~n~~b~2 Fries, 2 Rimjobs, 1 Soda ~w~|~g~ $250',
+	},
+	"MilkShake and Fries Combo": {
+		fileRenameException: true,
+		price: 200,
+		emoji: '🍟',
+		items: ["Fries", "Fries", "Milkshake", "Milkshake"],
+		copypasta:  '~p~~h~🍟🍨MilkShake and Fries Combo🍨🍟~n~~b~2 Fries & 2 Milkshakes ~w~|~g~ $200',
+	},
+	"Lucky Fisherman Combo": {
+		fileRenameException: true,
+		price: 200,
+		emoji: '⛵',
+		items: ["Lucky Rings", "Lucky Rings", "Soda", "Soda"],
+		copypasta:  '~p~~h~⛵🧅Lucky Fisherman Combo🧅⛵~n~~b~2 Lucky Rings & 2 Drinks ~w~|~g~ $200',
+	},
+	"Stretchy De-stress Combo": {
+		price: 200,
+		emoji: '🧀',
+		items: ["Mozz sticks","Mozz sticks","Mozz sticks","Mozz sticks"],
+		copypasta:  '~y~ ~h~ 🧀Stretchy De-stress🧠 ~n~~b~ 4 Mozzarella Sticks ~w~|~g~ $200 ~r~LIMITED',
+	},
+// 	"Bleeder Meal": {
+// 		price: 200,
+// 		items: ["Bleeder", "Fries", "Soda"],
+// 	},
 	// Individual Items:
-	"Burgers and Mains:": {
+	"MAIN DISHES:": {
 		header: true,
 	},
 	"Heartstopper": {
@@ -125,35 +129,35 @@ const Menu = {
 		price: 500,
 		items: ["Money Shot"],
 	},
-	"KnuckleSandwich": {
-		price: 150,
-		items: ["KnuckleSandwich"],
-	},
-	"Chicken Wraps": {
-		price: 150,
-		items: ["Chicken Wraps"],
-	},
+// 	"KnuckleSandwich": {
+// 		price: 150,
+// 		items: ["KnuckleSandwich"],
+// 	},
+// 	"Chicken Wraps": {
+// 		price: 150,
+// 		items: ["Chicken Wraps"],
+// 	},
 	"Buttermilk Chicken": {
 		price: 150,
 		items: ["Buttermilk Chicken"],
 	},
-	"Bleeder": {
-		price: 100,
-		items: ["Bleeder"],
+// 	"Bleeder": {
+// 		price: 100,
+// 		items: ["Bleeder"],
+// 	},
+	"Pancakes": {
+		price: 150,
+		items: ["Pancakes"],
 	},
-	"Oatmeal": {
-		price: 50,
-		items: ["Oatmeal"],
-	},
-	"Drinks:": {
+	"DRINKS:": {
 		header: true,
 	},
 	"Soda": {
-		price: 45,
+		price: 50,
 		items: ["Soda"]
 	},
 	"Milkshake": {
-		price: 48,
+		price: 50,
 		items: ["Milkshake"],
 	},
 	"Copium": {
@@ -161,82 +165,68 @@ const Menu = {
 		items: ["Copium"],
 	},
 	"Orange Juice": {
-	   	price: 45,
-	   	max: 5,
-	   	noDiscount: false,
-	   	lastItem: false,
+	   	price: 50,
 	   	items: ["Orange Juice"],
    	},
-   	"Lemonade": {
-	  	price: 45,
-	 	max: 5,
-	  	noDiscount: false,
-	  	lastItem: false,
-	  	items: ["Lemonade"],
-  	},
+//    	"Lemonade": {
+// 	  	price: 45,
+// 	 	max: 5,
+// 	  	noDiscount: false,
+// 	  	lastItem: false,
+// 	  	items: ["Lemonade"],
+//   	},
 	"Iced Tea": {
-	  	price: 45,
-	 	max: 5,
+	  	price: 50,
 	  	items: ["Iced Tea"],
   	},
-	"Sides:": {
+	"SIDES:": {
 		header: true,
-
 	},
 	"Fries": {
-		price: 55,
+		price: 50,
 		items: ["Fries"],
 	},
   	"Lucky Rings": {
 	  	price: 100,
-	  	noDiscount: false,
-	  	lastItem: false,
 	  	items: ["Lucky Rings"],
 	},
   	"Mozz Sticks": {
-	  	price: 55,
-	  	noDiscount: false,
-	  	lastItem: false,
+	  	price: 75,
 	  	items: ["Mozz sticks"],
 	},
   	"Dino Nuggies": {
-	  	price: 55,
-	  	noDiscount: false,
-	  	lastItem: false,
+	  	price: 75,
 	  	items: ["Dino Nuggies"],
  	
 	},
-	"Bacon": {
-		price: 50,
-		items: ["Bacon"],
-	},
-	 "Bloody Fingers": {
-		price: 40,
-		max: 5,
-		noDiscount: false,
-		lastItem: false,
-		items: ["Bloody Fingers"],
-	},
+// 	"Bacon": {
+// 		price: 50,
+// 		items: ["Bacon"],
+// 	},
+// 	 "Bloody Fingers": {
+// 		price: 40,
+// 		max: 5,
+// 		noDiscount: false,
+// 		lastItem: false,
+// 		items: ["Bloody Fingers"],
+// 	},
 	"Salad": {
-	   	price: 55,
-	   	max: 5,
-	   	noDiscount: false,
-	   	lastItem: false,
+	   	price: 50,
 	  	items: ["Salad"],
 	},
-	"Desserts(toys are no longer being sold indivdually):": {
+	"DESSERTS": {
 		header: true,
   	},
 	"Rimjob": {
-		price: 45,
+		price: 50,
 		items: ["Rimjob"],
 	},
 	"Cream Pie": {
-		price: 33,
+		price: 50,
 		items: ["Cream Pie"],
 	},
 	"Ice Cream": {
-		price: 33,
+		price: 50,
 		items: ["Ice Cream"],
 	},
 };
