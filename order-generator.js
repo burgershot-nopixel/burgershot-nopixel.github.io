@@ -69,10 +69,10 @@ const Menu = {
 		price: 200,
 		items: ["Heartstopper", "Fries", "Soda"],
 	},
-	"Moneyshot Combo": {
-		price: 575,
-		items: ["Money Shot", "Fries", "Soda"],
-	},
+// 	"Moneyshot Combo": {
+// 		price: 575,
+// 		items: ["Money Shot", "Fries", "Soda"],
+// 	},
 	"Jackpot Combo": {
 		fileRenameException: true,
 		price: 700,
