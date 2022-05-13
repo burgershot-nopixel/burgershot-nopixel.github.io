@@ -257,6 +257,7 @@ img, button .span, .reportBody.span {
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
+	max-width: 300px;
     -ms-touch-action: manipulation;
     touch-action: manipulation;
     cursor: pointer;
