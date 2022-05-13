@@ -1,6 +1,6 @@
 'use strict';
 
-let darkmodeState;
+let darkmodeState = true;
 
 const Settings = {
 	'MAIN_TABLE_WIDTH': 4,
@@ -35,13 +35,6 @@ const Menu = {
 		items: ["Money Shot", "Lucky Rings", "Copium"],
 		copypasta: '~o~ ~h~🍔JackPot Meal💰~n~ ~b~1 Money Shot, 1 Lucky Rings, 1 Copium ~w~|~g~ $700',
 	},
-// 	"ThirtyPercent Jackpot Meal": {
-// 		fileRenameException: true,
-// 		price: 490,
-// 		emoji: '🤑',
-// 		items: ["Money Shot", "Lucky Rings", "Copium"],
-// 		copypasta: '~o~ ~h~🍔JackPot Meal💰~n~ ~b~1 Money Shot, 1 Lucky Rings, 1 Copium ~w~|~g~ $700',
-// 	},
 	"Running Man": {
 		price: 250,
 		emoji: '🏃',
