@@ -187,7 +187,7 @@ const Menu = {
 	"SIDES": {
 		header: true,
 	},
-	"Fries / Curly Fries": {
+	"Fries": {
 		price: 50,
 		items: ["Fries"],
 	},
