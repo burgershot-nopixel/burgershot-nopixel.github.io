@@ -67,10 +67,12 @@ const Menu = {
 	},
 	"Heartstopper Combo": {
 		price: 200,
+		fileRenameException: true,
 		items: ["Heartstopper", "Fries", "Soda"],
 	},
 // 	"Moneyshot Combo": {
 // 		price: 575,
+		fileRenameException: true,
 // 		items: ["Money Shot", "Fries", "Soda"],
 // 	},
 	"Jackpot Combo": {
@@ -90,6 +92,7 @@ const Menu = {
 	"Morning Glory Combo": {
 		price: 200,
 		emoji: '☀️',
+		fileRenameException: true,
 		items: ["Pancakes", "Sausage Links", "Orange Juice"],
 		copypasta:  '~g~~h~ 🌄 Morning Glory Combo 🌄~n~~b~1 Pancakes, 1 Sausage Links, 1 OJ ~w~|~g~ $200 ~r~LIMITED',
 	},
