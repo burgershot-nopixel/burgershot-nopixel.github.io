@@ -236,7 +236,7 @@ const Menu = {
 	},
 };
 const INDIVIDUAL_ITEMS = [
-	"Murder Meal", "Heartstopper", "Money Shot", "KnuckleSandwich", "Torpedo", "Bleeder", "Water", "Meat Free", "Chicken Wraps", "Buttermilk Chicken", 
+	"Murder Meal", "Heartstopper", "Money Shot", "KnuckleSandwich", "Torpedo", "Bleeder", "Water", "Meat Free", "Chicken Wraps", "Buttermilk Chicken", "Sausage Links",
 	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers", "Salad", "Orange Juice", "Lemonade", "Lucky Rings", "Dino Nuggies", "Iced Tea", "Mozz sticks", "Copium", "Bacon", "Pancakes", "Ice Cream"
 ];
 
