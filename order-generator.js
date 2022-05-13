@@ -62,7 +62,7 @@ const Menu = {
 // 		copypasta:  '~y~ ~h~🐔Chicken Dinner🐔~n~~b~1 ButterMilk Chicken, 1 Chicken Wrap,~n~ 1 Mozzarella Sticks, ~n~ 1 Copium ~w~ | ~g~ $420 ~r~LIMITED',
 // 	},
 	// Burger Meals:
-	"COMBOS:": {
+	"COMBOS": {
 		header: true,
 	},
 	"Heartstopper Combo": {
