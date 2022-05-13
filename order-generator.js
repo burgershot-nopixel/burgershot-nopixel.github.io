@@ -10,7 +10,7 @@ const Settings = {
 
 const Menu = {
 	// Combo Items:
-	"MEALS <font color=\"red\">(All Meals come with a box/toy)<font/>": {
+	"<font size='18'>MEALS <font color=\"red\">(All Meals come with a box/toy)</font></font>": {
 		header: true,
 	},
 	"Murdershake Meal": {
@@ -62,7 +62,7 @@ const Menu = {
 // 		copypasta:  '~y~ ~h~🐔Chicken Dinner🐔~n~~b~1 ButterMilk Chicken, 1 Chicken Wrap,~n~ 1 Mozzarella Sticks, ~n~ 1 Copium ~w~ | ~g~ $420 ~r~LIMITED',
 // 	},
 	// Burger Meals:
-	"COMBOS": {
+	"<font size='18'>COMBOS</font>": {
 		header: true,
 	},
 	"Heartstopper Combo": {
@@ -122,7 +122,7 @@ const Menu = {
 // 		items: ["Bleeder", "Fries", "Soda"],
 // 	},
 	// Individual Items:
-	"MAIN DISHES": {
+	"<font size='18'>MAIN DISHES</font>": {
 		header: true,
 	},
 	"Heartstopper": {
@@ -187,7 +187,7 @@ const Menu = {
 	  	price: 50,
 	  	items: ["Iced Tea"],
   	},
-	"SIDES": {
+	"<font size='18'>SIDES</font>": {
 		header: true,
 	},
 	"Fries": {
