@@ -10,7 +10,7 @@ const Settings = {
 
 const Menu = {
 	// Combo Items:
-	"Meals (All Meals come with a box/toy)": {
+	"MEALS (All Meals come with a box/toy)": {
 		header: true,
 	},
 	"Murdershake Meal": {
@@ -47,12 +47,6 @@ const Menu = {
 // 		items: ["Soda", "Cream Pie", "Rimjob"],
 // 		copypasta:  '💨🍬Sugar Rush Combo💨🍬~n~~b~1 Soda, 1 Cream Pie, 1 Rimjob ~w~|~g~ $123',
 // 	},
-// 	"Morning Glory": {
-// 		price: 150,
-// 		emoji: '☀️',
-// 		items: ["Oatmeal", "Bacon", "Orange Juice"],
-// 		copypasta:  '~g~~h~ 🌄 Morning Glory Combo 🌄~n~~b~1 Oatmeal, 1 Bacon, 1 OJ ~w~|~g~ $150 ~r~LIMITED',
-// 	},
 	"4-Pc Nuggies Meal": {
 		fileRenameException: true,
 		price: 300,
@@ -68,14 +62,14 @@ const Menu = {
 // 		copypasta:  '~y~ ~h~🐔Chicken Dinner🐔~n~~b~1 ButterMilk Chicken, 1 Chicken Wrap,~n~ 1 Mozzarella Sticks, ~n~ 1 Copium ~w~ | ~g~ $420 ~r~LIMITED',
 // 	},
 	// Burger Meals:
-	"Burger Meals:": {
+	"COMBOS:": {
 		header: true,
 	},
-	"Heartstopper Meal": {
-		price: 175,
+	"Heartstopper Combo": {
+		price: 200,
 		items: ["Heartstopper", "Fries", "Soda"],
 	},
-	"Money Shot Meal": {
+	"Moneyshot Combo": {
 		price: 575,
 		items: ["Money Shot", "Fries", "Soda"],
 	},
@@ -93,21 +87,28 @@ const Menu = {
 		items: ["Fries", "Fries", "Rimjob", "Rimjob", "Soda"],
 		copypasta: '~y~~h~🏃‍♂️Running Man Combo🏃‍♂️ ~n~~b~2 Fries, 2 Rimjobs, 1 Soda ~w~|~g~ $250',
 	},
-	"MilkShake and Fries Combo": {
-		fileRenameException: true,
+	"Morning Glory Combo": {
 		price: 200,
-		emoji: '🍟',
-		items: ["Fries", "Fries", "Milkshake", "Milkshake"],
-		copypasta:  '~p~~h~🍟🍨MilkShake and Fries Combo🍨🍟~n~~b~2 Fries & 2 Milkshakes ~w~|~g~ $200',
+		emoji: '☀️',
+		items: ["Pancakes", "Sausage Links", "Orange Juice"],
+		copypasta:  '~g~~h~ 🌄 Morning Glory Combo 🌄~n~~b~1 Pancakes, 1 Sausage Links, 1 OJ ~w~|~g~ $200 ~r~LIMITED',
 	},
+// 	"MilkShake and Fries Combo": {
+// 		fileRenameException: true,
+// 		price: 200,
+// 		emoji: '🍟',
+// 		items: ["Fries", "Fries", "Milkshake", "Milkshake"],
+// 		copypasta:  '~p~~h~🍟🍨MilkShake and Fries Combo🍨🍟~n~~b~2 Fries & 2 Milkshakes ~w~|~g~ $200',
+// 	},
 	"Lucky Fisherman Combo": {
 		fileRenameException: true,
-		price: 200,
+		price: 250,
 		emoji: '⛵',
 		items: ["Lucky Rings", "Lucky Rings", "Soda", "Soda"],
-		copypasta:  '~p~~h~⛵🧅Lucky Fisherman Combo🧅⛵~n~~b~2 Lucky Rings & 2 Drinks ~w~|~g~ $200',
+		copypasta:  '~p~~h~⛵🧅Lucky Fisherman Combo🧅⛵~n~~b~2 Lucky Rings & 2 Drinks ~w~|~g~ $250',
 	},
 	"Stretchy De-stress Combo": {
+		fileRenameException: true,
 		price: 200,
 		emoji: '🧀',
 		items: ["Mozz sticks","Mozz sticks","Mozz sticks","Mozz sticks"],
@@ -118,11 +119,11 @@ const Menu = {
 // 		items: ["Bleeder", "Fries", "Soda"],
 // 	},
 	// Individual Items:
-	"MAIN DISHES:": {
+	"MAIN DISHES": {
 		header: true,
 	},
 	"Heartstopper": {
-		price: 75,
+		price: 150,
 		items: ["Heartstopper"],
 	},
 	"Money Shot": {
@@ -149,7 +150,11 @@ const Menu = {
 		price: 150,
 		items: ["Pancakes"],
 	},
-	"DRINKS:": {
+	"Veggie Burger": {
+		price: 150,
+		items: ["Veggie Burger"],
+	},
+	"DRINKS": {
 		header: true,
 	},
 	"Soda": {
@@ -179,10 +184,10 @@ const Menu = {
 	  	price: 50,
 	  	items: ["Iced Tea"],
   	},
-	"SIDES:": {
+	"SIDES": {
 		header: true,
 	},
-	"Fries": {
+	"Fries / Curly Fries": {
 		price: 50,
 		items: ["Fries"],
 	},
@@ -232,7 +237,7 @@ const Menu = {
 };
 const INDIVIDUAL_ITEMS = [
 	"Murder Meal", "Heartstopper", "Money Shot", "KnuckleSandwich", "Torpedo", "Bleeder", "Water", "Meat Free", "Chicken Wraps", "Buttermilk Chicken", 
-	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers", "Salad", "Orange Juice", "Lemonade", "Lucky Rings", "Dino Nuggies", "Iced Tea", "Mozz sticks", "Copium", "Bacon", "Oatmeal", "Ice Cream"
+	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers", "Salad", "Orange Juice", "Lemonade", "Lucky Rings", "Dino Nuggies", "Iced Tea", "Mozz sticks", "Copium", "Bacon", "Pancakes", "Ice Cream"
 ];
 
 const buttons = {
