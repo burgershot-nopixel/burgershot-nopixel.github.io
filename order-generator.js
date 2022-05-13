@@ -10,7 +10,7 @@ const Settings = {
 
 const Menu = {
 	// Combo Items:
-	"<font size='18'>MEALS <font color=\"red\">(All Meals come with a box/toy)</font></font>": {
+	"<font size='14'>MEALS <font color=\"red\">(All Meals come with a box/toy)</font></font>": {
 		header: true,
 	},
 	"Murdershake Meal": {
@@ -122,7 +122,7 @@ const Menu = {
 // 		items: ["Bleeder", "Fries", "Soda"],
 // 	},
 	// Individual Items:
-	"<font size='18'>MAIN DISHES</font>": {
+	"<font size='14'>MAIN DISHES</font>": {
 		header: true,
 	},
 	"Heartstopper": {
@@ -187,7 +187,7 @@ const Menu = {
 	  	price: 50,
 	  	items: ["Iced Tea"],
   	},
-	"<font size='18'>SIDES</font>": {
+	"<font size='14'>SIDES</font>": {
 		header: true,
 	},
 	"Fries": {
@@ -222,7 +222,7 @@ const Menu = {
 	   	price: 50,
 	  	items: ["Salad"],
 	},
-	"DESSERTS": {
+	"<font size='14'>DESSERTS</font>": {
 		header: true,
   	},
 	"Rimjob": {
