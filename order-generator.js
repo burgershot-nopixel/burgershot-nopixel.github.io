@@ -10,7 +10,7 @@ const Settings = {
 
 const Menu = {
 	// Combo Items:
-	"<font size='5'>MEALS <font color=\"red\">(All Meals come with a box/toy)</font></font>": {
+	"<font size='5'>MEALS <font color=\"red\">(Comes with a box/toy)</font></font>": {
 		header: true,
 	},
 	"Murdershake Meal": {
@@ -53,7 +53,7 @@ const Menu = {
 		emoji: '🧒',
 		items: ["Dino Nuggies", "Dino Nuggies", "Dino Nuggies", "Dino Nuggies", "Soda", "Murder Meal"],
 		noDiscount: true,
-		copypasta:  '~o~ ~h~🏃‍♂️Kids Meal🐣~n~ ~b~4 Dino Nuggies, 1 Fries, 1 OJ, 1 Ice Cream ~w~|~g~ $250',
+		copypasta:  '~o~ ~h~🦖4 Pc Nuggies🦖 ~n~ ~b~4 Dino Nuggies & 1 Drink ~w~|~g~ $300 ~n~~r~ FOR A LIMITED TIME',
 	},
 // 	"Chicken Dinner": {
 // 		price: 420,
@@ -222,7 +222,7 @@ const Menu = {
 	   	price: 50,
 	  	items: ["Salad"],
 	},
-	"<font size='14'>DESSERTS</font>": {
+	"<font size='5'>DESSERTS</font>": {
 		header: true,
   	},
 	"Rimjob": {
