@@ -614,6 +614,7 @@ function deselectCombos() {
 
 function loadPage() {
 	if (!pageReloaded) {
+		localStorage.setItem("darkmode", true);
 		let darkmodeSetting = localStorage.getItem("darkmode");
 		if (!darkmodeSetting || darkmodeSetting === 'undefined' || darkmodeSetting === 'false') {
 			localStorage.setItem("darkmode", false);
