@@ -70,11 +70,11 @@ const Menu = {
 		fileRenameException: true,
 		items: ["Heartstopper", "Fries", "Soda"],
 	},
-// 	"Moneyshot Combo": {
-// 		price: 575,
+	"Moneyshot Combo": {
+		price: 575,
 		fileRenameException: true,
-// 		items: ["Money Shot", "Fries", "Soda"],
-// 	},
+		items: ["Money Shot", "Fries", "Soda"],
+	},
 	"Jackpot Combo": {
 		fileRenameException: true,
 		price: 700,
