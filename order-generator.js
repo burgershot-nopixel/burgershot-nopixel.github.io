@@ -93,7 +93,7 @@ const Menu = {
 		price: 200,
 		emoji: '☀️',
 		fileRenameException: true,
-		items: ["Pancakes", "Sausage Links", "Orange Juice"],
+		items: ["Pancakes", "Sausage Link", "Orange Juice"],
 		copypasta:  '~g~~h~ 🌄 Morning Glory Combo 🌄~n~~b~1 Pancakes, 1 Sausage Links, 1 OJ ~w~|~g~ $200 ~r~LIMITED',
 	},
 // 	"MilkShake and Fries Combo": {
