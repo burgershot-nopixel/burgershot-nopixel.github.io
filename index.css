@@ -296,6 +296,7 @@ img, button .span, .reportBody.span {
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
+	padding: 10px;
 }
 body{
   background-color: white;
